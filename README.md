@@ -3,7 +3,9 @@
  Django の認証システムとセッションまわりの基礎的事項を実演するためのサンプルを作成する。
 
  [Djangoの認証システムを使用する](https://docs.djangoproject.com/ja/2.2/topics/auth/default/)
+
  [Django の認証方法のカスタマイズ](https://docs.djangoproject.com/ja/2.2/topics/auth/customizing/)
+
  [セッションの使いかた](https://docs.djangoproject.com/ja/2.2/topics/http/sessions/)
 
  ## プロジェクトとアプリケーションの作成
