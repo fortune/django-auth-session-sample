@@ -99,6 +99,9 @@ path('accounts/logout_then_login/', auth_views.logout_then_login, name='logout_t
  `registration/login.html` に関してはデフォルトのものがないので自分で作るしかない。`accounts/templates/registration/login.html` に作成した。
 
 
+[Django ファイルアップロードのサンプル#認証まわりの実装](https://github.com/fortune/django-fileupload-sample#%E8%AA%8D%E8%A8%BC%E3%81%BE%E3%82%8F%E3%82%8A%E3%81%AE%E5%AE%9F%E8%A3%85)
+
+
  ## session_test アプリケーションでセッションの実験
 
  セッションオブジェクトは必要なときにデータベースへと保存される。これは `django.contrib.sessions.models.Session` モデルであり、`django.contrib.sessions` が `settings` の `INSTALLED_APPS` に登録されているので、データベースのマイグレーション時に対応するテーブルが作成される。これを管理サイトで確認することができるように `session_test.admin` モジュールで設定した。
